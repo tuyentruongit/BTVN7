@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+/* style logo and input  */
+.logo-search{
+    display: flex;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+}
+.logo-search .logo-lazada{
+    width:20%;
+}
+.logo-search .logo-lazada img{
+    width: 127px;
+    height: 40px;
+}
+.logo-search .input-search{
+    width: 60%;
+}
+.input-search input{
+    width: 100%;
+    padding: 15px 10px;
+    background-color: #EFF0F5;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+/* style logo pay */
+.logo-search .cart i{
+    font-size: 30px;
+    padding: 0px 25px;
+}
+.logo-search .logo-pay{
+    width: 20%;
+}
+.logo-search .logo-pay img{
+    width: 188px;
+    height: 45px;
+}
+
+
+
+
+/* style sub menu */
+.menu-main{
+    width: 20%;
+    color: #9E9E9E;
+    position: relative;
+    border: 1px solid;
+}
+.menu-main .sub-menu{
+    width: 220px;
+    border-radius: 5px;
+    font-size: 14px;
+    position: absolute;
+    display: none;
+    height: 100%;
+    color: #9E9E9E;
+}
+/* hover sub-menu c1 */
+.menu-main li:hover>a{
+    color: #F36D00;
+}
+.menu-main li:hover>i{
+    color: #F36D00 !important;
+    transform: rotate(180deg);
+}
+.sub-menu li .fa-solid{
+    display: none;
+}
+.sub-menu li:hover i{
+    display: block;
+}
+/* hover sub menu c2 */
+.sub-menu .sub-menu-c2 li i{
+    display: none;
+}
+.sub-menu-c2 li:hover i{
+    display: block;
+}
+
+.menu-main .sub-menu li{
+    padding: 10px  10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-main .sub-menu .sub-menu-c2{
+    position: absolute;
+    left:100%;
+    top: 0%;
+}
+.menu-main li:hover>.sub-menu{
+    display: block;
+}
+.sub-menu-c2 .sub-menu-c3{
+    width: 220px;
+    position: absolute;
+    left: 100%;
+    top: 0 ;
+}
