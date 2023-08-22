@@ -6,6 +6,7 @@
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
+
 .container{
     width: 80%;
     margin: auto;
@@ -66,9 +67,10 @@
     display: none;
     height: 100%;
     color: #9E9E9E;
+    box-shadow: #9E9E9E;
 }
 /* hover sub-menu c1 */
-.menu-main li:hover>a{
+.menu-main li:hover>.sub-menu{
     color: #F36D00;
 }
 .menu-main li:hover>i{
